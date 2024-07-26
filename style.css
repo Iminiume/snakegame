@@ -1,0 +1,67 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  background-color: #bbfcff;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.border-radius {
+  border-radius: 0.25rem;
+}
+
+.container {
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.info {
+  flex-direction: column;
+
+  width: 100%;
+  padding: 0.5rem 0;
+  gap: 0.5rem;
+
+  border: 1px solid black;
+}
+
+#score {
+  font-size: 1.5rem;
+}
+
+#reset-btn {
+  padding: 0.25rem 1rem;
+
+  color: white;
+  background-color: rgb(240, 51, 51);
+  transition: background-color ease-in-out 0.2s;
+  border: 1px solid black;
+
+  cursor: pointer;
+}
+
+#reset-btn:hover {
+  background-color: rgb(236, 105, 105);
+}
+
+canvas {
+  border: 1px solid black;
+}
